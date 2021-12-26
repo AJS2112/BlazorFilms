@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFilms.UI", "BlazorFilms.UI\BlazorFilms.UI.csproj", "{EEE10FE8-1E5A-4B09-9108-29258D24917A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorFilms.UI", "BlazorFilms.UI\BlazorFilms.UI.csproj", "{EEE10FE8-1E5A-4B09-9108-29258D24917A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFilms.Model", "BlazorFilms.Model\BlazorFilms.Model.csproj", "{07BE026E-5CED-416C-8355-C1A46D85B6E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorFilms.Data", "BlazorFilms.Data\BlazorFilms.Data.csproj", "{E33286E1-7605-4C2A-AE64-AEE64E9F2E5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EEE10FE8-1E5A-4B09-9108-29258D24917A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE10FE8-1E5A-4B09-9108-29258D24917A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE10FE8-1E5A-4B09-9108-29258D24917A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BE026E-5CED-416C-8355-C1A46D85B6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BE026E-5CED-416C-8355-C1A46D85B6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BE026E-5CED-416C-8355-C1A46D85B6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BE026E-5CED-416C-8355-C1A46D85B6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33286E1-7605-4C2A-AE64-AEE64E9F2E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33286E1-7605-4C2A-AE64-AEE64E9F2E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33286E1-7605-4C2A-AE64-AEE64E9F2E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33286E1-7605-4C2A-AE64-AEE64E9F2E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
